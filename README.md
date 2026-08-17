@@ -2,6 +2,26 @@
 
 A web-based tool for managing PostgreSQL database connections, viewing metadata, and executing SQL queries with natural language support.
 
+## 项目来源
+
+本项目基于极客时间 AI 训练营提供的“数据库查询工具”进行作业扩展：
+
+- 原始仓库：https://github.com/tyrchen/geektime-bootcamp-ai
+- 原始代码目录：`w2/db_query`
+- 原项目作者：陈天（tyrchen）及相关贡献者
+
+本次作业主要新增和完善了以下内容：
+
+- CSV、JSON 查询结果导出
+- “执行查询并导出”的一键自动化流程
+- Claude Code `/query-export` 自定义 Command
+- 自然语言生成 SQL 后的同页执行与导出交互
+- OpenAI 兼容接口及 DeepSeek 模型配置支持
+- 导出功能测试、真实 MySQL 验证和 `FEATURE_EXPORT.md` 设计文档
+
+除上述扩展外，项目的基础架构和原有数据库查询能力来自训练营提供的原始代码。
+原项目版权及相关权利归原作者所有。
+
 ## Project Structure
 
 ```
