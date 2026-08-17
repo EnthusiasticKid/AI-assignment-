@@ -1,0 +1,57 @@
+{
+  "sql": "SELECT TABLE_NAME, TABLE_ROWS FROM information_schema.tables WHERE table_schema = 'rzx_qz' ORDER BY TABLE_NAME LIMIT 10",
+  "rowCount": 10,
+  "executionTimeMs": 2,
+  "columns": [
+    {
+      "name": "TABLE_NAME",
+      "dataType": "VAR_STRING"
+    },
+    {
+      "name": "TABLE_ROWS",
+      "dataType": "LONGLONG"
+    }
+  ],
+  "rows": [
+    {
+      "TABLE_NAME": "QRTZ_BLOB_TRIGGERS",
+      "TABLE_ROWS": 0
+    },
+    {
+      "TABLE_NAME": "QRTZ_CALENDARS",
+      "TABLE_ROWS": 0
+    },
+    {
+      "TABLE_NAME": "QRTZ_CRON_TRIGGERS",
+      "TABLE_ROWS": 0
+    },
+    {
+      "TABLE_NAME": "QRTZ_FIRED_TRIGGERS",
+      "TABLE_ROWS": 0
+    },
+    {
+      "TABLE_NAME": "QRTZ_JOB_DETAILS",
+      "TABLE_ROWS": 0
+    },
+    {
+      "TABLE_NAME": "QRTZ_LOCKS",
+      "TABLE_ROWS": 0
+    },
+    {
+      "TABLE_NAME": "QRTZ_PAUSED_TRIGGER_GRPS",
+      "TABLE_ROWS": 0
+    },
+    {
+      "TABLE_NAME": "QRTZ_SCHEDULER_STATE",
+      "TABLE_ROWS": 0
+    },
+    {
+      "TABLE_NAME": "QRTZ_SIMPLE_TRIGGERS",
+      "TABLE_ROWS": 0
+    },
+    {
+      "TABLE_NAME": "QRTZ_SIMPROP_TRIGGERS",
+      "TABLE_ROWS": 0
+    }
+  ]
+}
