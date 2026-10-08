@@ -1,16 +1,5 @@
 # Database Query Tool
 
-## 第五章研发作业：PostgreSQL MCP
-
-第五章第四节 Codex Review 对应的研发作业已完成，代码位于 [`w5/pg-mcp`](w5/pg-mcp)。
-
-- [实现与验收说明](w5/pg-mcp/HOMEWORK.md)
-- [安装运行指南](w5/pg-mcp/README.md)
-- [测试报告](w5/pg-mcp/test-results.xml)
-- [覆盖率数据](w5/pg-mcp/coverage.json)
-
-本次实现多数据库路由、表/列与 EXPLAIN 安全策略、并发限流、退避重试、熔断、指标追踪和响应模型修复。验证结果：**346 项测试通过、整体覆盖率 90.94%**；46 项需真实数据库/API 的测试明确跳过。
-
 A web-based tool for managing PostgreSQL database connections, viewing metadata, and executing SQL queries with natural language support.
 
 ## 项目来源
